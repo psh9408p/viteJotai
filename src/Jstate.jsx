@@ -7,7 +7,10 @@ export const countryAtom = atom("Japan");
 export const citiesAtom = atom(["Tokyo", "Kyoto", "Osaka"]);
 
 export const mangaAtom = atom({
-  "Dragon Ball": 1984,
-  "One Piece": 1997,
-  Naruto: 1999,
+  DragonBall: 1984,
+  OnePiece: 1997,
+  Naruto: {
+    name: "naruto",
+    city: "seoul",
+  },
 });
